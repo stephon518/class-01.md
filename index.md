@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# class-01.md
 
-You can use the [editor on GitHub](https://github.com/stephon518/class-01.md/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**Introductory HTML and Java Script**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**HTML**
 
-### Markdown
+The new HTML5 elements indicate the purpose of different parts of a web page and help to describe its structure. The new elements provide clearer code (compared with using multiple <div> elements).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+X Older browsers that do not understand HTML5 elements need to be told which elements are block-level elements.
 
-```markdown
-Syntax highlighted code block
+X To make HTML5 elements work in Internet Explorer 8 (and older versions of IE), extra JavaScript is needed, which is available free from Google.
 
-# Header 1
-## Header 2
-### Header 3
+For Process & Design you will learn to  approach building a site, understanding your audience and their needs and how to present information visitors want to see. Also you  will design theory for presenting information in a way that helps visitors achieve their goals and Design tips to help you create more attractive and professional sites.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+**Java Script** 
 
-**Bold** and _Italic_ and `Code` text
+It is best to keep JavaScript code in its own JavaScript file. JavaScript files are text files (like HTML pages and CSS style sheets), but they have the . j s extension.
 
-[Link](url) and ![Image](src)
-```
+The HTML <script> element is used in HTML pages to tell the browser to load the JavaScript file (rather like the <link> element can be used to load a CSS file).
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+If you view the source code of the page in the browser, the JavaScript will not have changed the HTML, because the script works with the model of the web page that the browser has created.
 
-### Jekyll Themes
+Examples:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stephon518/class-01.md/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<!DOCTYPE html> <html>
+  <head>
 
-### Support or Contact
+<title>Constructive &amp; Co.</title>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<link rel ="stylesheet" href="css/cOl.css" />
+
+</head> <body>
+
+<hl>Constructive &amp; Co.</hl>
+
+<p>For all orders and inquiries please call <em>555-3344</em></p> <script src="js/add-content.js"></script>
+
+JAVASCRIPT RUNS WHERE IT IS FOUND IN THE HTML
+
+When the browser comes across a <script>element, it stops to load the script and then checks to see if it needs to do anything.
+
+</body> </html>
+
+
+
